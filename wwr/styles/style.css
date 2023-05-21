@@ -1,11 +1,7 @@
-div {
-    max-width: 1600px; 
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Merriweather:wght@300&display=swap');
 #content {
+    max-width: 1600px;
     margin: 0 auto;
-}
-nav a {
-    text-align: center;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -21,6 +17,13 @@ main section {
 }
 body {
     background-color:#CAF0F8;
+    font-family: 'DM serif Display', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header {
     background-color:#1f2e30;
@@ -34,30 +37,42 @@ nav a:hover {
     background-color: #243235;
     color: #f0f5f6;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #1f2e30;
     color: #fa1056;
+    padding: 15px 30px;
 }
 #background {
     background-color: #050b0ee1;
 }
 .msg {
     background-color: #1f2e30;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #33474b;
     color: #e5f2f4;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 nav a {
     text-align: center;
     background-color: #1f2e30;
     color: #e1e9eb;
     text-decoration: none;
+    padding: 35px;
 }
 .home-title {
     background-color: #1f2e30;
     color: #f5f7f9;
+    font-family: 'Merriweather', 'Times New Roman', sans-serif;
+    font-size: 2em;
+    margin: 10px;
 }
 h4 {
     background-color: #1f2e30;
@@ -70,6 +85,8 @@ h4 {
 .msg p {
     background-color: #1f2e30;
     color: #ecf0f0d9;
+    font-size: 8em;
+    padding-bottom: 15px;
 }
 footer a {
     text-align: center;
@@ -83,10 +100,26 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer p {
     font-size: 1.2em;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer.social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #1f2e30;
+}
+main section img {
+    box-sizing: border-box;
 }
