@@ -1,3 +1,5 @@
+/* :root {...} is used to save a css variables, so that it can be used in the remaining parts of the CSS code  */
+
 :root {
     --padding: 1rem;
     --background-color: darkblue;
