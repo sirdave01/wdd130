@@ -1,0 +1,126 @@
+:root {
+    --padding: 1rem;
+    --text-align: center;
+    --color: black;
+    --text-decoration: none;
+    --box-shadow: 0 0 30px gray;
+    --border: 1px dashed rgb(224, 15, 15);
+    --max-width: 800px;
+    --display: block;
+    --height: auto;
+    --primary-colors: #dcedff;
+    --secondary-colors: #e55381;
+    --accent1: #0a014f;
+    --accent2: #3976a7;
+    --Heading-font-family: Oswald;
+    --Text-font-family: quicksand;
+    --socials-text-decoration: none;
+}
+
+body {
+    background-color: var(--primary-colors);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+header {
+    background-color: var(--accent1);
+    margin-bottom: 10px;
+    position: relative;
+}
+
+header img {
+    width: 100px;
+    height: var(--height);
+
+}
+
+header nav {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+header nav a {
+    color: white;
+}
+
+
+main {
+    background-color: var(--secondary-colors);
+    text-align: var(--text-align);
+}
+
+
+p {
+    color: var(--color);
+    font-family: var(--Text-font-family);
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+h1 h2 {
+    font-family: var(--Heading-font-family);
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color);
+    text-align: left;
+}
+
+#hero h2 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero h1,
+article {
+    position: absolute;
+}
+
+#hero h1 {
+    color: var(--color);
+    font-family: var(--Heading-font-family);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: var(--text-align);
+    background-color: gray;
+    left: 10px;
+    right: 10px;
+}
+
+#hero img {
+    height: var(--height);
+    width: 100%;
+}
+
+#hero article {
+    position: absolute;
+    bottom: 1000px;
+    left: 15px;
+    right: 15px;
+    background-color: var(--accent2);
+    padding: var(--padding);
+}
+
+#hero article img {
+    width: 150px;
+    float: right;
+    height: auto;
+}
+
+#hero .adventure {
+    width: 200px;
+    height: auto;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
