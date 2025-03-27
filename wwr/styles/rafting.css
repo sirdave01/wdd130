@@ -4,20 +4,22 @@
     --color: black;
     --text-decoration: none;
     --box-shadow: 0 0 30px gray;
-    --border: 1px dashed rgb(224, 15, 15);
-    --max-width: 800px;
+    --border: 1px solid rgba(4, 4, 4, 0.993);
+    --max-width: 1000px;
     --display: block;
     --height: auto;
     --primary-colors: #dcedff;
     --secondary-colors: #e55381;
     --accent1: #0a014f;
     --accent2: #3976a7;
-    --Heading-font-family: Oswald;
-    --Text-font-family: quicksand;
+    --font-family: Oswald, sans-serif, quicksand;
+    --heading-font-family: Oswald;
+    --text-font-family: quicksand;
     --socials-text-decoration: none;
 }
 
 body {
+    font-family: var(--font-family);
     background-color: var(--primary-colors);
     max-width: var(--max-width);
     margin: 0 auto;
@@ -25,102 +27,146 @@ body {
     padding-top: 50px;
 }
 
+/* this is how to write code for the header of a webpage */
 
 header {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
     background-color: var(--accent1);
-    margin-bottom: 10px;
-    position: relative;
+    margin-bottom: 1rem;
+    align-items: center;
+    margin: 1rem auto;
+    border: 0.5rem solid white;
+    max-width: var(--max-width);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 header img {
-    width: 100px;
+    width: 90px;
     height: var(--height);
-
+    margin: 0.5rem 3rem 0.5rem 3rem;
 }
 
 header nav {
-    position: absolute;
-    right: 10px;
-    top: 10px;
+    padding: 0;
+    font-family: var(--text-font-family);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 25rem;
 }
 
-header nav a {
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0;
+    border: black;
+    justify-content: space-around;
+}
+
+.nav-links li {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-links a {
+    color: var(--color);
+    text-decoration: var(--text-decoration);
+    white-space: nowrap;
+
+}
+
+/* this is the code for the main content of the webpage */
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* to style the section History area of the webpage */
+
+.abc {
+    display: flex;
+    background-color: var(--accent1);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abc img {
+    width: 150px;
+    height: var(--height);
+    align-self: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: -130px;
+}
+
+.abc h2 {
+    color: white;
+    align-self: flex-start;
+    margin-top: 0p;
+    padding-top: 15px;
+    margin-top: -3px;
+    margin-left: 30px;
+    font-size: 2rem;
+}
+
+.abc p {
+    margin: 40px;
     color: white;
 }
 
 
-main {
-    background-color: var(--secondary-colors);
-    text-align: var(--text-align);
+footer {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    background-color: var(--accent2);
+    margin-bottom: 1rem;
+    align-items: flex-end;
+    margin: 1rem auto;
+    border: 0.5rem solid white;
+    max-width: var(--max-width);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer img {
+    align-self: last baseline;
+    width: 90px;
+    height: var(--height);
 }
 
 
-p {
-    color: var(--color);
-    font-family: var(--Text-font-family);
+footer p {
+    color: white;
     font-size: 1rem;
     font-weight: bold;
     padding-left: 10px;
     padding-right: 10px;
+    align-self: last baseline;
+    white-space: nowrap;
 }
 
-
-h1 h2 {
-    font-family: var(--Heading-font-family);
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--color);
-    text-align: left;
+#socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: -5rem;
 }
 
-#hero h2 {
-    text-align: left;
-    padding-left: 10px;
-}
-
-#hero {
-    position: relative;
-}
-
-#hero h1,
-article {
-    position: absolute;
-}
-
-#hero h1 {
-    color: var(--color);
-    font-family: var(--Heading-font-family);
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: var(--text-align);
-    background-color: gray;
-    left: 10px;
-    right: 10px;
-}
-
-#hero img {
-    height: var(--height);
-    width: 100%;
-}
-
-#hero article {
-    position: absolute;
-    bottom: 1000px;
-    left: 15px;
-    right: 15px;
-    background-color: var(--accent2);
-    padding: var(--padding);
-}
-
-#hero article img {
-    width: 150px;
-    float: right;
-    height: auto;
-}
-
-#hero .adventure {
-    width: 200px;
-    height: auto;
-    padding-left: 20px;
-    margin-bottom: 10px;
+#socials a {
+    color: white;
+    text-decoration: var(--socials-text-decoration);
+    padding: 0.5rem;
 }
