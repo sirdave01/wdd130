@@ -91,6 +91,7 @@ main {
     display: grid;
     gap: 1rem;
     place-items: center;
+    max-width: var(--max-width);
 }
 
 .hero {
@@ -99,27 +100,46 @@ main {
     justify-content: center;
     align-content: center;
     gap: 1rem;
+
 }
 
 .img1 {
-    position: relative;
     width: 100%;
-    max-width: var(--max-width);
     height: var(--height);
     margin-top: 1rem;
     margin-bottom: 1rem;
     object-position: center;
     object-fit: cover;
+    position: relative;
 }
 
 .hero h1 {
     position: absolute;
+    align-self: center;
     justify-self: center;
     text-align: center;
-    top: 250px;
-    padding: 20px;
-    text-transform: capitalize;
+    bottom: 340px;
+    padding-right: 320px;
+    padding-left: 320px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    background-color: var(--accent1);
+    color: white;
 }
+
+.about {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: var(--accent2);
+    align-items: center;
+    padding: 1rem;
+    bottom: 300px;
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 
 /* to style the section History area of the webpage */
 
