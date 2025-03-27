@@ -101,7 +101,8 @@ main {
     gap: 1rem;
 }
 
-.hero img {
+.img1 {
+    position: relative;
     width: 100%;
     height: var(--height);
     margin-top: 1rem;
@@ -111,11 +112,10 @@ main {
 }
 
 .hero h1 {
-    align-items: flex-end;
-    align-self: flex-start;
+    position: absolute;
+    align-self: flex-end;
     justify-self: center;
     text-align: center;
-    margin-top: -3rem;
 }
 
 /* to style the section History area of the webpage */
