@@ -102,12 +102,20 @@ main {
 }
 
 .hero img {
-    max-width: 100%;
+    width: 100%;
     height: var(--height);
     margin-top: 1rem;
     margin-bottom: 1rem;
     object-position: center;
     object-fit: cover;
+}
+
+.hero h1 {
+    align-items: flex-end;
+    align-self: flex-start;
+    justify-self: center;
+    text-align: center;
+    margin-top: -3rem;
 }
 
 /* to style the section History area of the webpage */
