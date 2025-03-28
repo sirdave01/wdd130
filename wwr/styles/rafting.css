@@ -108,7 +108,7 @@ main {
     height: var(--height);
     margin-top: 1rem;
     margin-bottom: 1rem;
-    object-position: center;
+    /* object-position: center; */
     object-fit: cover;
     position: absolute;
     z-index: -1;
@@ -145,38 +145,64 @@ main {
 /* to style the section History area of the webpage */
 
 .abc {
-    display: flex;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--secondary-colors);
+    margin: 0;
+    /* display: flex;
+    flex-wrap: wrap;
     background-color: var(--accent1);
     margin-top: 1rem;
     margin-bottom: 1rem;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
 }
 
-.abc img {
-    width: 150px;
-    height: var(--height);
-    align-self: center;
-    margin-top: 60px;
-    margin-bottom: 10px;
-    margin-left: -130px;
-}
 
 .abc h2 {
-    color: white;
-    align-self: flex-start;
-    margin-top: 0p;
-    padding-top: 15px;
-    margin-top: -3px;
-    margin-left: 30px;
+    grid-column: 1 / 4;
+    align-self: center;
+    justify-self: center;
+    color: var(--accent1);
+    text-transform: uppercase;
     font-size: 2rem;
+    font-family: var(--heading-font-family);
 }
 
-.abc p {
-    margin: 40px;
+
+.par1 {
+    grid-column: 1 / 1;
+    padding: 20px;
+    align-self: center;
+    justify-self: center;
     color: white;
+    font-size: 1rem;
+    text-align: center;
+    font-family: var(--text-font-family);
 }
 
+.par2 {
+    grid-column: 3/3;
+    padding: 20px;
+    align-self: center;
+    justify-self: center;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    font-family: var(--text-font-family);
+}
+
+.mid {
+    grid-column: 2/2;
+    width: 200px;
+    height: var(--height);
+    justify-self: center;
+    align-self: center;
+    object-position: center;
+}
 
 footer {
     display: grid;
