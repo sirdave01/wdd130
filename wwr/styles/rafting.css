@@ -218,22 +218,27 @@ main {
 
 .a {
     grid-column: 2/2;
+    align-self: center;
 }
 
 .b {
     grid-column: 3/3;
+    align-self: center;
 }
 
 .c {
     grid-column: 4/4;
+    align-self: center;
 }
 
 .d {
     grid-column: 5/5;
+    align-self: center;
 }
 
 .e {
     grid-column: 6/6;
+    align-self: center;
 }
 
 /* .adventure img {
