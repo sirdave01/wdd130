@@ -151,13 +151,6 @@ main {
     gap: 1rem;
     background-color: var(--secondary-colors);
     margin: 0;
-    /* display: flex;
-    flex-wrap: wrap;
-    background-color: var(--accent1);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    justify-content: space-between;
-    align-items: center; */
 }
 
 
@@ -205,14 +198,19 @@ main {
 
 .adventure {
     display: grid;
-    grid-template-columns: repeat((6, 1fr));
+    grid-template-columns: repeat(6, 1fr);
+    grid-area: 1rem;
+    align-items: center;
+    /* justify-content: center; */
 }
 
+.adventure h2 {
+    grid-column: 1/6;
+}
 .adventure img {
     grid-column: 2/6;
-    grid-row: 2/6;
     align-self: center;
-    justify-self: flex-start;
+    justify-self: center;
 }
 
 footer {
