@@ -201,12 +201,13 @@ main {
     grid-template-columns: repeat(6, 1fr);
     grid-area: 1rem;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: space-between;
 }
 
 .adventure h2 {
     grid-column: 1/6;
 }
+
 .adventure img {
     grid-column: 2/6;
     align-self: center;
