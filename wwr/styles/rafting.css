@@ -203,7 +203,7 @@ main {
 .adventure {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-area: 1rem;
+    /* grid-area: 1rem; */
     justify-content: center;
     align-items: center;
     justify-content: space-between;
