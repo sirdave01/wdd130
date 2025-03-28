@@ -116,7 +116,7 @@ main {
     align-self: center;
     justify-self: center;
     text-align: center;
-    bottom: 360px;
+    /* bottom: 360px; */
     padding-right: 220px;
     padding-left: 220px;
     padding-top: 10px;
@@ -136,7 +136,7 @@ main {
     position: relative;
     margin-left: 1rem;
     margin-right: 1rem;
-    top: -250px;
+    /* top: -250px; */
 }
 
 
