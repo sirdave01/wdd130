@@ -88,7 +88,7 @@ header nav {
 /* this is the code for the main content of the webpage */
 
 main {
-    display: grid;
+    /* display: grid; */
     gap: 1rem;
     place-items: center;
     margin: 0;
@@ -201,7 +201,7 @@ main {
 }
 
 .adventure {
-    /* display: grid; */
+    display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-area: 1rem;
     justify-content: center;
