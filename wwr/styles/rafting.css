@@ -23,8 +23,8 @@ body {
     background-color: var(--primary-colors);
     max-width: var(--max-width);
     margin: 0 auto;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    /* padding-bottom: 50px;
+    padding-top: 50px; */
 }
 
 /* this is how to write code for the header of a webpage */
@@ -90,6 +90,7 @@ main {
     display: grid;
     gap: 1rem;
     place-items: center;
+    margin: 0;
 }
 
 .hero {
@@ -115,7 +116,7 @@ main {
     align-self: center;
     justify-self: center;
     text-align: center;
-    bottom: 340px;
+    bottom: 360px;
     padding-right: 220px;
     padding-left: 220px;
     padding-top: 10px;
@@ -135,7 +136,7 @@ main {
     position: relative;
     margin-left: 1rem;
     margin-right: 1rem;
-    top:-250px;
+    top: -250px;
 }
 
 
