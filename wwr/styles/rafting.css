@@ -90,7 +90,7 @@ header nav {
 main {
     /* display: grid; */
     gap: 1rem;
-    place-items: center;
+    /* place-items: center; */
     margin: 0;
 }
 
