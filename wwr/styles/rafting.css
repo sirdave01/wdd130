@@ -249,10 +249,11 @@ main {
 
 footer {
     display: grid;
-    grid-template-columns: 120px 1fr 1fr;
+    /* grid-template-columns: 120px 1fr 1fr; */
     background-color: var(--accent2);
     margin-bottom: 1rem;
-    align-items: flex-end;
+    align-items: baseline;
+    justify-content: center;
     margin: 1rem auto;
     border: 0.5rem solid white;
     max-width: var(--max-width);
@@ -261,7 +262,7 @@ footer {
 }
 
 footer img {
-    align-self: last baseline;
+    align-self: flex-end;
     width: 90px;
     height: var(--height);
 }
@@ -273,8 +274,10 @@ footer p {
     font-weight: bold;
     padding-left: 10px;
     padding-right: 10px;
-    align-self: last baseline;
-    white-space: nowrap;
+    align-self: baseline;
+    white-space: wrap;
+    justify-self: center;
+    margin: 10px;
 }
 
 #socials {
