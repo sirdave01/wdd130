@@ -87,15 +87,15 @@ header nav {
 
 /* this is the code for the main content of the webpage */
 
-main {
-    /* display: grid; */
+/* main {
+    display: grid;
     gap: 1rem;
-    /* place-items: center; */
+    place-items: center;
     margin: 0;
-}
+} */
 
 .hero {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -118,9 +118,9 @@ main {
 
 .hero h1 {
     position: absolute;
-    align-self: flex-end;
+    /* align-self: flex-end;
     justify-self: center;
-    text-align: center;
+    text-align: center; */
     bottom: 400px;
     padding-right: 220px;
     padding-left: 220px;
@@ -133,10 +133,10 @@ main {
 }
 
 .about {
-    display: flex;
-    flex-direction: row-reverse;
+    /* display: flex;
+    flex-direction: row-reverse; */
     background-color: var(--accent2);
-    align-items: center;
+    /* align-items: center; */
     padding: 1rem;
     position: relative;
     margin-left: 1rem;
@@ -144,6 +144,15 @@ main {
     top: -250px;
 }
 
+.about p {
+    color: white;
+    font-family: var(--text-font-family);
+    font-weight: bold;
+}
+
+.about img {
+    float: right;
+}
 
 /* to style the section History area of the webpage */
 
@@ -162,9 +171,9 @@ main {
     grid-column: 1 / 4;
     align-self: center;
     justify-self: center;
-    color: var(--accent1);
+    color: white;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 35px;
     font-family: var(--heading-font-family);
 }
 
@@ -175,9 +184,10 @@ main {
     align-self: center;
     justify-self: center;
     color: white;
-    font-size: 1rem;
+    font-size: 20px;
     text-align: center;
     font-family: var(--text-font-family);
+    font-weight: bold;
 }
 
 .par2 {
@@ -186,9 +196,10 @@ main {
     align-self: center;
     justify-self: center;
     color: white;
-    font-size: 1rem;
+    font-size: 20px;
     text-align: center;
     font-family: var(--text-font-family);
+    font-weight: bold;
 }
 
 .mid {
@@ -249,10 +260,10 @@ main {
 
 footer {
     display: grid;
-    /* grid-template-columns: 120px 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: var(--accent2);
     margin-bottom: 1rem;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
     margin: 1rem auto;
     border: 0.5rem solid white;
@@ -261,34 +272,37 @@ footer {
     padding-bottom: 1rem;
 }
 
-footer img {
-    align-self: flex-end;
-    width: 90px;
-    height: var(--height);
-}
-
 
 footer p {
+    grid-column: 1/2;
+    text-align: center;
     color: white;
-    font-size: 1rem;
+    font-size: 8px;
     font-weight: bold;
     padding-left: 10px;
     padding-right: 10px;
-    align-self: baseline;
-    white-space: wrap;
+    align-self: center;
+    white-space: nowrap;
     justify-self: center;
     margin: 10px;
 }
 
-#socials {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-left: -5rem;
+
+.socials {
+    grid-column: 3/3;
 }
 
-#socials a {
-    color: white;
-    text-decoration: var(--socials-text-decoration);
-    padding: 0.5rem;
+.socials img {
+    width: 40px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials a {
+    justify-content: space-between;
+    margin-right: 10px;
 }
