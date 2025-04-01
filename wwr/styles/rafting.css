@@ -5,7 +5,7 @@
     --text-decoration: none;
     --box-shadow: 0 0 30px gray;
     --border: 1px solid rgba(4, 4, 4, 0.993);
-    --max-width: 800px;
+    /* --max-width: 800px; */
     --display: block;
     --height: auto;
     --primary-colors: #dcedff;
@@ -53,7 +53,7 @@ header nav {
     font-family: var(--text-font-family);
     font-size: 1rem;
     font-weight: bold;
-    margin-left: 10rem;
+    margin-left: 50rem;
 }
 
 .nav-links {
@@ -67,8 +67,8 @@ header nav {
 }
 
 .nav-links li {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0;
@@ -122,8 +122,8 @@ header nav {
     justify-self: center;
     text-align: center; */
     bottom: 400px;
-    padding-right: 220px;
-    padding-left: 220px;
+    padding-right: 583px;
+    padding-left: 583px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-transform: uppercase;
@@ -141,16 +141,19 @@ header nav {
     position: relative;
     margin-left: 1rem;
     margin-right: 1rem;
-    top: -250px;
+    top: -400px;
 }
 
 .about p {
     color: white;
     font-family: var(--text-font-family);
     font-weight: bold;
+    padding: 20px;
+    margin-right: 20px;
 }
 
 .about img {
+    width: 150px;
     float: right;
 }
 
@@ -163,7 +166,8 @@ header nav {
     align-items: center;
     gap: 1rem;
     background-color: var(--secondary-colors);
-    margin: 0;
+    margin-top: 17rem;
+    margin-bottom: 10rem;
 }
 
 
@@ -218,6 +222,7 @@ header nav {
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10rem;
 }
 
 .adventure h2 {
@@ -268,8 +273,8 @@ footer {
     margin: 1rem auto;
     border: 0.5rem solid white;
     max-width: var(--max-width);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 
@@ -277,7 +282,7 @@ footer p {
     grid-column: 1/2;
     text-align: center;
     color: white;
-    font-size: 8px;
+    font-size: 15px;
     font-weight: bold;
     padding-left: 10px;
     padding-right: 10px;
@@ -293,7 +298,7 @@ footer p {
 }
 
 .socials img {
-    width: 40px;
+    width: 60px;
 }
 
 footer nav {

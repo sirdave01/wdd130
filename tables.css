@@ -1,0 +1,55 @@
+/* code to style the table */
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+/* styling the caption of the table */
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* styling the header and the footer of the table */
+
+thead,
+tfoot {
+    background-color: rgb(228 240 245);
+}
+
+/* styling the th and td of the table */
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+/* styling the last td of the table */
+td:last-of-type {
+    text-align: center;
+}
+
+/* styling the tr of the table */
+
+tbody>tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+
+/* styling the th of the tfoot of the table */
+
+tfoot th {
+    text-align: right;
+}
+
+/* styling the td of the tfoot of the table */
+
+tfoot td {
+    font-weight: bold;
+}
