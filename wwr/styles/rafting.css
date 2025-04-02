@@ -22,7 +22,7 @@ body {
     /* display: grid; */
     font-family: var(--font-family);
     background-color: var(--primary-colors);
-    max-width: var(--max-width);
+    /* max-width: var(--max-width); */
     margin: 0 auto;
     /* padding-bottom: 50px;
     padding-top: 50px; */

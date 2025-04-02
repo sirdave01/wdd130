@@ -7,6 +7,13 @@
     <title>Poll Form</title>
     <meta name="description" content="This is a Poll Form for assignment">
     <meta name="author" content="Osigwe Uchechukwu David Caleb">
+
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -39,15 +46,21 @@
 
                 <!-- the label element is essential in creating the questions -->
 
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
+                <div class="form-item column2">
+
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+
+                </div>
 
                 <br>
 
-                <br>
+                <div class="form-item column2">
 
-                <label for="useremail"> Email:</label>
-                <input type="email" id="useremail" name="useremail">
+                    <label for="useremail"> Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+
+                </div>
 
                 <br>
 
@@ -67,41 +80,50 @@
 
                 <!-- use the br element to break the sentence or questions for good whitespacing -->
 
-                <label for="browser">What is your Favorite browser?</label>
 
-                <select id="browser" name="browser">
 
-                    <option value="Chrome">Chrome</option>
+                <div class="form-item column1">
 
-                    <option value="Kiwi">Kiwi</option>
+                    <label for="browser">What is your Favorite browser?</label>
 
-                    <option value="Misses">Misses</option>
+                    <select id="browser" name="browser">
 
-                    <option value="UC">UC</option>
+                        <option value="Chrome">Chrome</option>
 
-                    <option value="Pibrowser">Pi Browser</option>
+                        <option value="Kiwi">Kiwi</option>
 
-                    <option value="Edge">Edge</option>
+                        <option value="Misses">Misses</option>
 
-                    <option value="Safari">Safari</option>
+                        <option value="UC">UC</option>
 
-                    <option value="Firefox">FireFox</option>
+                        <option value="Pibrowser">Pi Browser</option>
 
-                    <option value="Opera">Opera</option>
-                </select> <br>
+                        <option value="Edge">Edge</option>
+
+                        <option value="Safari">Safari</option>
+
+                        <option value="Firefox">FireFox</option>
+
+                        <option value="Opera">Opera</option>
+                    </select>
+
+                </div>
 
                 <br>
 
-                <label for="pet">Do you have a household Pet?</label>
+                <div class="form-item column1">
 
-                <input type="checkbox" id="pet" name="pet"> <br>
+                    <label for="pet">Do you have a household Pet?</label>
+
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
 
                 <br>
 
                 <label for="feedback">List the places you have lived:</label> <br>
 
                 <textarea name="feedback" id="feedback" rows="10">
-                    I lived at Aba, Abia State
+                    Abia, Enugu, Imo, Anambra, Ebonyi
                 </textarea><br>
 
             </fieldset> <br>
