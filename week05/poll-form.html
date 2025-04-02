@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Form</title>
+    <meta name="description" content="This is a Poll Form for assignment">
+    <meta name="author" content="Osigwe Uchechukwu David Caleb">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>
+            WDD130 | Osigwe Uchechukwu David Caleb | HTML POLL FORMS
+        </h1>
+
+    </header>
+
+    <main>
+
+        <!-- building the form -->
+
+        <form>
+
+            <fieldset>
+
+                <!-- legend element is used to add caption -->
+
+                <legend>
+                    CONTACT INFORMATION
+                </legend>
+
+                <!-- The write-ups goes into this space -->
+
+                <!-- using the label element and the input element to get answers from users -->
+
+                <!-- the label element is essential in creating the questions -->
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+
+                <br>
+
+                <br>
+
+                <label for="useremail"> Email:</label>
+                <input type="email" id="useremail" name="useremail">
+
+                <br>
+
+            </fieldset>
+
+            <fieldset> <br>
+
+                <!-- legend element is used to add caption -->
+
+                <legend>
+                    QUESTIONS
+                </legend>
+
+                <!-- use a select element to allow user choose one or many options from the dropdown list -->
+
+                <!-- use options to list the options for the user to choose from and it is nested in the select element  -->
+
+                <!-- use the br element to break the sentence or questions for good whitespacing -->
+
+                <label for="browser">What is your Favorite browser?</label>
+
+                <select id="browser" name="browser">
+
+                    <option value="Chrome">Chrome</option>
+
+                    <option value="Kiwi">Kiwi</option>
+
+                    <option value="Misses">Misses</option>
+
+                    <option value="UC">UC</option>
+
+                    <option value="Pibrowser">Pi Browser</option>
+
+                    <option value="Edge">Edge</option>
+
+                    <option value="Safari">Safari</option>
+
+                    <option value="Firefox">FireFox</option>
+
+                    <option value="Opera">Opera</option>
+                </select> <br>
+
+                <br>
+
+                <label for="pet">Do you have a household Pet?</label>
+
+                <input type="checkbox" id="pet" name="pet"> <br>
+
+                <br>
+
+                <label for="feedback">List the places you have lived:</label> <br>
+
+                <textarea name="feedback" id="feedback" rows="10">
+                    I lived at Aba, Abia State
+                </textarea><br>
+
+            </fieldset> <br>
+
+            <button type="submit">Submit Poll</button>
+
+
+        </form>
+
+    </main>
+
+    <footer>
+
+        <p>
+            @2025 | HTML FORM-POLL ACTIVITY | Osigwe Uchechukwu David Caleb
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

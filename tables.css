@@ -14,6 +14,7 @@ caption {
     caption-side: bottom;
     padding: 10px;
     font-weight: bold;
+    font-style: italic;
 }
 
 /* styling the header and the footer of the table */
@@ -21,6 +22,13 @@ caption {
 thead,
 tfoot {
     background-color: rgb(228 240 245);
+}
+
+/* styling the table header row */
+
+thead th {
+    background-color: black;
+    color: white;
 }
 
 /* styling the th and td of the table */
