@@ -20,7 +20,7 @@ form {
     padding: 1rem;
     border: 0.5rem dashed red;
     border-radius: 0.25rem;
-    background-color: rgba(159, 159, 238, 0.948);
+    background-color: rgba(149, 149, 167, 0.948);
     display: grid;
 }
 
@@ -34,7 +34,7 @@ fieldset {
 
 legend {
     font-family: oswald;
-    color: rgb(87, 87, 213);
+    color: rgb(67, 7, 231);
     font-size: 1.5rem;
 }
 
