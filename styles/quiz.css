@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: oswald, quicksand;
+}
+
+header h1 {
+    font-family: oswald;
+    font-size: 2rem;
+    color: navy;
+}
+
+form {
+    background-color: gray;
+    display: grid;
+    width: 700px;
+}
+
+fieldset {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    border: 0.5rem solid rgb(239, 196, 196);
+}
+
+label,
+input,
+textarea,
+select,
+button {
+    font-family: quicksand;
+    color: white;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 1rem;
+    background-color: blue;
+    margin: 1rem;
+    width: 15rem;
+    height: 6rem;
+    border: none;
+    font-family: oswald;
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
+    margin-left: 12rem;
+}
+
+footer {
+    margin: 1rem;
+}
+
+footer p {
+    background-color: blue;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: quicksand;
+    text-align: center;
+}
+
+.form{
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 1fr 2/3fr;
+    white-space: nowrap;
+}
