@@ -395,7 +395,7 @@ iframe {
 .happy img {
     width: 200px;
     height: var(--height);
-    justify-self: space-between;
+    /* justify-self: space-between; */
     margin-left: 10rem;
     align-self: center;
     object-position: center;
@@ -534,4 +534,14 @@ textarea {
 label[for="subscribe"] {
     text-align: center;
     white-space: nowrap;
+}
+
+.con {
+    color: white;
+    text-decoration: none;
+    font-family: var(--text-font-family);
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    margin-left: 1rem;
 }
