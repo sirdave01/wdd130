@@ -432,7 +432,6 @@ iframe {
     display: grid;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
     margin: 0.5rem;
     margin-bottom: 4rem;
 }
