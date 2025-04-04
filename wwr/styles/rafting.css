@@ -232,7 +232,7 @@ header nav {
     /* grid-area: 1rem; */
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-bottom: 10rem;
 }
 
@@ -241,6 +241,10 @@ header nav {
     grid-column: 1/7;
     align-self: center;
     justify-self: center;
+}
+
+figcaption {
+    text-align: center;
 }
 
 .a {
@@ -321,4 +325,190 @@ footer nav {
 .socials a {
     justify-content: space-between;
     margin-right: 10px;
+}
+
+/* contact webpage design */
+
+.contact {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--secondary-colors);
+    margin-top: 17rem;
+    margin-bottom: 10rem;
+}
+
+.contact h2 {
+    grid-column: 1 / 5;
+    align-self: center;
+    justify-self: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: var(--heading-font-family);
+}
+
+.par3 {
+    grid-column: 4 / 4;
+    padding: 20px;
+    align-self: center;
+    justify-self: center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: var(--text-font-family);
+    font-weight: bold;
+}
+
+iframe {
+    grid-column: 2 / 2;
+    width: 70%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 2%;
+}
+
+.happy {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    background-color: var(--accent2);
+}
+
+.happy h2 {
+    grid-column: 1/5;
+    align-self: center;
+    justify-self: center;
+    text-transform: uppercase;
+    font-style: italic;
+    color: white;
+    font-family: var(--heading-font-family);
+}
+
+.happy img {
+    width: 200px;
+    height: var(--height);
+    justify-self: space-between;
+    margin-left: 10rem;
+    align-self: center;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 2%;
+}
+
+.happy figcaption {
+    text-align: center;
+    color: white;
+    font-family: var(--text-font-family);
+    font-weight: bold;
+    margin-left: 10rem;
+}
+
+.f {
+    grid-column: 2/2;
+    align-self: center;
+}
+
+.g {
+    grid-column: 3/3;
+    align-self: center;
+}
+
+.h {
+    grid-column: 4/4;
+    align-self: center;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0.5rem;
+    margin-bottom: 4rem;
+}
+
+form {
+    display: grid;
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 1000px;
+    border: 0.3rem dashed gray;
+    background-color: var(--accent1);
+    color: white;
+}
+
+fieldset {
+    display: grid;
+    gap: 0.5rem;
+    border: 0.5rem solid rgb(176, 231, 176, 0.5);
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+legend {
+    font-family: oswald;
+    color: rgba(5, 242, 5, 0.745);
+    font-size: 1.5rem;
+}
+
+label,
+input,
+textarea,
+button {
+    font-family: quicksand;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+label {
+    text-align: right;
+    padding-right: 1.5rem;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    vertical-align: bottom;
+    width: 20px;
+    height: 20px;
+}
+
+input[type="radio"] {
+    vertical-align: bottom;
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    background-color: var(--accent2);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    font-family: quicksand;
+    font-size: 1.5rem;
+    margin-left: 27rem;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+
+}
+
+button:hover {
+    cursor: pointer;
+    color: green;
+    background-color: red;
 }

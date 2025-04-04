@@ -103,68 +103,73 @@
 
 
 
-            <figure><img class="a" src="images/happy.webp" alt="rafting" width="200">
+            <figure><img class="f" src="images/happy.webp" alt="rafting" width="200">
                 <figcaption>Happy staff Emeka and team</figcaption>
             </figure>
 
-            <figure><img class="b" src="images/happystaff.webp" alt="rafting" width="200">
+            <figure><img class="g" src="images/happystaff.webp" alt="rafting" width="200">
                 <figcaption>Happy staff Chibuike and team</figcaption>
             </figure>
 
-            <figure><img class="c" src="images/staffhappy.webp" alt="rafting" width="200">
+            <figure><img class="h" src="images/staffhappy.webp" alt="rafting" width="200">
                 <figcaption>Happy staff Nneka and team</figcaption>
             </figure>
 
         </section>
 
-        <form>
+        <div class="form-item">
 
-            <fieldset>
+            <form>
 
-                <legend>
+                <fieldset>
+    
+                    <legend>
+    
+                        CONTACT INFORMATION
+    
+                    </legend>
+    
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+    
+                    <br>
+    
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+    
+                </fieldset>
+    
+                <fieldset>
+    
+                    <legend>
+    
+                        MESSAGE
+    
+                    </legend>
+    
+                    <label for="message">General Inquiry:</label>
+                    <input type="radio" id="complaint" name="message" value="complaint" required>
+    
+                    <label for="message">Reservation Question</label>
+                    <input type="radio" id="reservation" name="message" value="reservation" required>
+    
+                    <label for="message">website Suggestion</label>
+                    <input type="radio" id="suggestion" name="message" value="suggestion" required>
+    
+                    <label for="message">The Message</label>
+                    <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+    
+                    <label for="subscribe">Please subscribe me to the monthly newsletter:</label>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    
+                </fieldset>
+    
+                <button type="submit">Submission Button</button>
+    
+            </form>
 
-                    CONTACT INFORMATION
-
-                </legend>
-
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname" required>
-
-                <br>
-
-                <label for="useremail">Email:</label>
-                <input type="email" id="useremail" name="useremail" required>
-
-            </fieldset>
-
-            <fieldset>
-
-                <legend>
-
-                    MESSAGE
-
-                </legend>
-
-                <label for="message">General Inquiry:</label>
-                <input type="radio" id="complaint" name="message" value="complaint" required>
-
-                <label for="message">Reservation Question</label>
-                <input type="radio" id="reservation" name="message" value="reservation" required>
-
-                <label for="message">website Suggestion</label>
-                <input type="radio" id="suggestion" name="message" value="suggestion" required>
-
-                <label for="message">The Message</label>
-                <textarea id="message" name="message" rows="5" cols="30" required></textarea>
-
-                <label for="subscribe">Please subscribe me to the monthly newsletter:</label>
-                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-                
-            </fieldset>
-
-            <button type="submit">Submission Button</button>
-
-        </form>
+        </div>
+        
     </main>
 
     <footer>
