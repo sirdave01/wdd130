@@ -426,6 +426,8 @@ iframe {
     align-self: center;
 }
 
+/* this is the code for the form area of the webpage */
+
 .form-item {
     display: grid;
     align-items: center;
@@ -511,4 +513,26 @@ button:hover {
     cursor: pointer;
     color: green;
     background-color: red;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+}
+
+textarea {
+    border-radius: 0.5rem;
+    width: 30rem;
+    height: 10rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+label[for="subscribe"] {
+    text-align: center;
+    white-space: nowrap;
 }
