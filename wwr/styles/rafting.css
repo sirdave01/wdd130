@@ -545,3 +545,19 @@ label[for="subscribe"] {
     text-align: left;
     margin-left: 1rem;
 }
+
+/* css styling for the home page of the website */
+
+.ho {
+    background-color: transparent;
+}
+
+.ho a {
+    text-decoration: none;
+    color: var(--color);
+    font-family: var(--text-font-family);
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    float: right;
+}
