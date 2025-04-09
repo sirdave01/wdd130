@@ -615,8 +615,8 @@ label[for="subscribe"] {
     width: 100%;
 }
 
-.items {
-    grid-column: 2/2;
+.item {
+    grid-column: 1/2;
 }
 
 .form-table {
