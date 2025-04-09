@@ -615,7 +615,7 @@ label[for="subscribe"] {
     width: 100%;
 }
 
-.item {
+.items {
     grid-column: 2/2;
 }
 
@@ -673,7 +673,8 @@ tbody>tr:nth-of-type(even) {
     padding: 1rem;
 }
 
-tfoot th {
+tfoot th,
+td {
     text-align: right;
 }
 
