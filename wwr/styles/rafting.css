@@ -554,7 +554,7 @@ label[for="subscribe"] {
 
 .ho a {
     text-decoration: none;
-    color: var(--color);
+    color: white;
     font-family: var(--text-font-family);
     font-weight: bold;
     font-style: italic;
@@ -563,6 +563,7 @@ label[for="subscribe"] {
     background-color: navy;
     padding: 20px;
     border-radius: 10px;
+    font-size: 1rem;
 }
 
 .home {
