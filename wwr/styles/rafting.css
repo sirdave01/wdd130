@@ -560,6 +560,9 @@ label[for="subscribe"] {
     font-style: italic;
     text-align: center;
     float: right;
+    background-color: navy;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .home {
