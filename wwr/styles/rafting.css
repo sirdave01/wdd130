@@ -613,16 +613,17 @@ label[for="subscribe"] {
     align-self: center;
 }
 
-.items {
+
+.item {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     width: 100%;
-}
-
-.item {
-    grid-column: 1/2;
+    height: var(--height);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    object-position: center;
+    margin-left: 10rem;
 }
 
 .form-table {
