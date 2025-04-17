@@ -758,7 +758,7 @@ tfoot td {
     grid-column: 1/3;
     align-self: center;
     justify-self: center;
-    color: green;
+    color: black;
     text-transform: uppercase;
     font-size: 35px;
     font-family: var(--heading-font-family);
@@ -805,7 +805,7 @@ td {
     grid-column: 1/4;
     align-self: center;
     justify-self: center;
-    color: green;
+    color: black;
     text-transform: uppercase;
     font-size: 35px;
     font-family: var(--heading-font-family);
